@@ -1,9 +1,11 @@
-html {
+html, body {
     color: #000000;
-    background-image: url("images/");
+    background-image: url(../images/background.jpg);
     font-family: 'Quicksand', sans-serif;
 }
 #WIP {
     text-align: center;
     font-size: 45px;
+    color:white;
+    text-decoration: underline;
 }
