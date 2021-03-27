@@ -6,15 +6,6 @@ html{
     height:100%;
     overflow:hidden;
 }
-body {
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/background.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
 a {
     text-decoration: none;
     font-family: Rubik, sans-serif;
@@ -24,29 +15,72 @@ a {
     -o-transition: all .1s ease-in;
     transition: all .1s ease-in;
 }
-#colorACC {
-    color:white
-
-}
-
-.WIP {
+#boxfirst {
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    left: 37%;
-    top: 38%;
-    font-size: 45px;
-    color:white;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 6px #000000;
 }
-.credits {
+#credits {
     position: absolute;
     right: 2%;
     bottom: 3%;
     color:white
 }
-.accounts {
+#background {
     position: absolute;
-    left: 2%;
-    top: 3%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ACC {
     color:white;
+    
+}
+.accounts {
     font-size: 20px;
-    text-decoration: none;
+    text-align: center;
+}
+.header {
+    height: 10%;
+    padding: 1rem 1.5rem;
+}
+.title {
+    font-size: 2rem;
+    color: white;
+}
+.center {
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.titleWIP {
+    text-align: center;
+}
+.footer {
+    height: 15%;
+}
+.titleF {
+    text-align: center;
+    font-size: 1rem;
+    color: #888;
+    text-decoration: underline;
+}
+.yellow {
+    color: #f4f00f;
+}
+span.yellow {
+    font-size: inherit;
 }
